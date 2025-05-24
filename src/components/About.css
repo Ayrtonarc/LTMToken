@@ -1,0 +1,37 @@
+/* Paleta LATAM: Verde #009e60, Amarillo #ffd600, Azul #0057b7, Rojo #e63946, Naranja #ff7f11, Blanco #fff, Gris #f6f8fa */
+.about {
+  background: #fff;
+  color: #222;
+  padding: 2.5rem 0;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  margin-bottom: 2.5rem;
+}
+.about .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #009e60;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #ffd600;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.about p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+@media (max-width: 700px) {
+  .about .container {
+    padding: 0 0.3rem;
+  }
+  .about h2 {
+    font-size: 1.3rem;
+  }
+}

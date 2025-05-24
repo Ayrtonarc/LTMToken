@@ -1,0 +1,66 @@
+/* Paleta LATAM: Verde #009e60, Amarillo #ffd600, Azul #0057b7, Rojo #e63946, Naranja #ff7f11, Blanco #fff, Gris #f6f8fa */
+.coming-soon {
+  background: linear-gradient(120deg, #ffd600 0%, #ff7f11 100%);
+  color: #fff;
+  padding: 2.5rem 0;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  margin-bottom: 2.5rem;
+}
+.coming-soon .container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.coming-soon h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0057b7;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.coming-soon p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+.notify-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.notify-form input {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  min-width: 180px;
+}
+.notify-form button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  background: #009e60;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.notify-form button:hover {
+  background: #0057b7;
+}
+@media (max-width: 600px) {
+  .notify-form {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .coming-soon .container {
+    padding: 0 0.3rem;
+  }
+  .coming-soon h2 {
+    font-size: 1.3rem;
+  }
+}

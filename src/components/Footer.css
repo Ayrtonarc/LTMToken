@@ -1,5 +1,11 @@
 /* Paleta LATAM: Verde #009e60, Amarillo #ffd600, Azul #0057b7, Rojo #e63946, Naranja #ff7f11, Blanco #fff, Gris #f6f8fa */
 .footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   background: #0057b7;
   color: #ffd600;
   padding: 1.2rem 0;

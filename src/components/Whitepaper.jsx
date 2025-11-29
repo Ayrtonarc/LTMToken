@@ -101,17 +101,17 @@ const Whitepaper = () => (
         <strong>¿Dónde puedo consultar el contrato y el código?</strong>
         <p>El contrato y el repositorio de GitHub serán publicados tras el despliegue en mainnet.</p>
         <strong>¿Qué es una criptomoneda?</strong>
-        <p>Es un activo digital que utiliza criptografía para asegurar transacciones y opera de manera descentralizada en una blockchain.</p>
+        <p>Una criptomoneda es un activo digital que utiliza criptografía avanzada para asegurar las transacciones y controlar la creación de nuevas unidades. Opera sobre una red blockchain descentralizada, lo que significa que no depende de bancos ni gobiernos, permitiendo transferencias globales, rápidas y seguras entre usuarios.</p>
         <strong>¿Qué es una stablecoin?</strong>
-        <p>Es una criptomoneda diseñada para mantener un valor estable, generalmente respaldada por activos o vinculada a una moneda fiat.</p>
+        <p>Una stablecoin es una criptomoneda diseñada para mantener un valor estable en el tiempo, generalmente respaldada por activos como monedas fiduciarias (USD, EUR) o materias primas. Esto reduce la volatilidad típica de otras criptomonedas y la hace ideal para pagos, remesas y ahorro digital.</p>
         <strong>¿Qué es la red Solana?</strong>
-        <p>Solana es una blockchain de alta velocidad y bajo costo, ideal para aplicaciones financieras y pagos rápidos.</p>
+        <p>Solana es una blockchain de alto rendimiento que permite procesar miles de transacciones por segundo con tarifas extremadamente bajas. Es reconocida por su velocidad, escalabilidad y por ser una de las redes preferidas para aplicaciones financieras, pagos y proyectos innovadores en el mundo cripto.</p>
         <strong>¿Qué es un whitepaper?</strong>
-        <p>Es un documento técnico que explica el propósito, funcionamiento y detalles de un proyecto cripto o blockchain.</p>
+        <p>Un whitepaper es un documento técnico y estratégico que explica en detalle el propósito, funcionamiento, tecnología y proyección de un proyecto cripto o blockchain. Es la referencia principal para entender la visión, los objetivos y la propuesta de valor de un token o plataforma.</p>
         <strong>¿Qué es un token SPL?</strong>
-        <p>Es el estándar de tokens en la red Solana, similar a los tokens ERC-20 en Ethereum.</p>
+        <p>Un token SPL es el estándar de tokens en la red Solana, similar a los tokens ERC-20 en Ethereum. Permite crear y gestionar activos digitales (como LTM Crypto) que pueden transferirse, intercambiarse y usarse en aplicaciones dentro del ecosistema Solana.</p>
         <strong>¿Qué es la descentralización?</strong>
-        <p>Es un principio donde el control y la validación de transacciones no dependen de una sola entidad, sino de una red distribuida.</p>
+        <p>La descentralización es un principio fundamental de las criptomonedas y blockchain. Significa que el control y la validación de las transacciones no dependen de una sola entidad, sino de una red distribuida de participantes. Esto aumenta la seguridad, la transparencia y reduce el riesgo de censura o manipulación.</p>
       </div>
     </div>
   </section>

@@ -1,5 +1,11 @@
 .header {
-  background: #181c24;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: linear-gradient(90deg, #17d427 0%, #1a7eea 100%);
   color: #fff;
   padding: 2.5rem 0 1.5rem 0;
   text-align: center;

@@ -1,20 +1,25 @@
 /* Paleta LATAM: Verde #009e60, Amarillo #ffd600, Azul #0057b7, Rojo #e63946, Naranja #ff7f11, Blanco #fff, Gris #f6f8fa */
 .whitepaper {
-  background: #ffffffec url('/src/assets/night-city.jpg') center/cover no-repeat;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: url('/src/assets/pago.jpg') center center/cover no-repeat;
   color: #222;
   padding: 2.5rem 0;
   text-align: left;
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  border-radius: 0;
+  box-shadow: none;
   margin-bottom: 2.5rem;
-  position: relative;
+  overflow: hidden;
 }
 .whitepaper::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(246, 248, 250, 0.92); /* overlay para legibilidad */
-  border-radius: 18px;
+  background: rgba(195, 205, 212, 0.911); /* overlay completamente transparente */
   z-index: 0;
 }
 .whitepaper > .container, .whitepaper * {
